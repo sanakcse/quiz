@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <!-- <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,400,700'> -->
+  
+</head>
+
+
+<body>
+<div class="container">
+
+  <div class="card">
+   
+    <div class="card-body">
+      
+    
+            
+            <form id="contact-form" method="post" action="" role="form">
+    
+            <div class="messages"></div>
+    
+            <div class="controls">
+              <label for="form_name">Company Details</label>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="first name" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="last name" required="required" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    
+                    <input id="form_name" type="text" name="address" class="form-control" placeholder="Address" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                
+              </div>
+              <label for="form_name">Contact Details</label>
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="form-group">
+                    
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Mobile" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-group">
+                    
+                    <input id="form_phone" type="phone" name="phone" class="form-control" placeholder="Phone" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-group">
+                    
+                    <input id="form_fax" type="" name="phone" class="form-control" placeholder="Fax" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-group">
+                    
+                    <input id="form_website" type="text" name="phone" class="form-control" placeholder="Website" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+              </div>
+              <label for="form_name">Address</label>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    
+                    <input id="form_name" type="text" name="address" class="form-control" placeholder=" Street Address" required="required" data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    
+                    <input id="form_phone" type="text" name="localty" class="form-control" placeholder="Localty" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    
+                    <input id="form_phone" type="text" name="city" class="form-control" placeholder="City" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    
+                    <input id="form_fax" type="" name="state" class="form-control" placeholder="State" required="required" data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  
+                  <input id="form_fax" type="text" name="postal" class="form-control" placeholder="Postal code" required="required" data-error="Valid email is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  
+                  <input id="form_fax" type="text" name="landmark" class="form-control" placeholder="Landmark" required="required" data-error="Valid email is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                
+                <div class="col-md-12">
+                  <input type="submit" class="btn btn-primary btn-send" style="float: right;margin-top: 10px;" value="Submit">
+                </div>
+              </div>
+             
+            </div>
+    
+            </form>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+
+
+      <br>
+      
+      <style>
+
+        body {
+          padding: 20px 0;
+          font-family: Lato, sans-serif;
+          text-transform: uppercase;
+        }
+        label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+
+    margin-left: -10px;
+}
+        .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 10px solid rgba(179, 177, 177, 0.125);
+            border-radius: .25rem;
+        }
+        .card-body {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            padding: 3.25rem;
+        }
+        .btn-primary {
+            color: #fff;
+            background-color: #ffad16;
+            border-color: #ffad16;
+        }
+        .container{
+          padding-left: 100px;
+            padding-right: 100px;
+        }
+        @media (max-width: 767px){
+          .container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        }
+        .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+            color: #fff;
+            background-color: #ffad16;
+            border-color: #ffad16;
+        }
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #fda709;
+            border-color: #fda709;
+        }
+        .form-control{
+          text-transform: uppercase;
+        }
+        .col-md-6, .col-md-12, .col-md-4, .col-md-3 {
+          position: relative;
+            min-height: 1px;
+            padding-right: 1px;
+            padding-left: 1px;
+        }
+        .form-group {
+            margin-bottom: 2px;
+        }
+        label {
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+            /* margin-bottom: 0px; */
+            margin-top: -8px;
+        }
+        .form-control {
+            display: block;
+            width: 100%;
+            height: 50px;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: #fff;
+            background-image: none;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(255, 177, 0, 0.075);
+            box-shadow: inset 0 1px 1px rgba(255, 177, 0, 0.075);
+            -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+        input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -15px; 
+    transition: 0.2s ease-out;
+}
+
+input::-webkit-input-placeholder {
+    transition: 0.2s ease-in;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    height: 50px;
+    padding-bottom: 0px;
+    transition: 0.2s ease-in;
+    color: #017eff;
+    background: #fbfbfb;
+}
+
+input[type="text"], input[type="password"] {
+    height: 50px;
+    transition: 0.2s ease-in;
+    color: #017eff;
+ 
+}
+.form-control:focus {
+    border-color: #fda709;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(255, 165, 0, 0.075), 0 0 8px rgba(254, 158, 59, 0.6);
+    box-shadow: inset 0 1px 1px rgba(255, 165, 0, 0.075), 0 0 8px rgba(254, 158, 59, 0.6);
+}
+.card {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeft {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+        </style>
+         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+         <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+         <script src='https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js'></script>
+</body>
+</html>
+  harisithu1997
